@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <!-- Needed for Dropdown caret symbol -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Hamburger Menu</title>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <ul>
+            <li><a class="active" href="#">Link 1</a></li>
+            <li><a href="worship.html">Link 2</a></li>
+            <li><a href="#">Contact</a></li>
+            <div class="dropdown">
+                <button class="dropbtn">Link 3 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Link 3.1</a>
+                  <a href="#">Link 3.2</a>
+                </div>
+            </div>
+            <li><a href="#">Link 4</a></li>
+        </ul>
+    </nav>
+
+    <div class="hamburger-navigation">
+        <input type="checkbox" id="ham-nav">
+        <label for="ham-nav" class="hamburger-menu">&#9776;</label>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
